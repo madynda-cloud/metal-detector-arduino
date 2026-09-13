@@ -2,7 +2,8 @@
 
 A simple metal detector built with an Arduino Nano, a hand-wound coil, and a handful of passive components. It detects nearby metal objects by measuring changes in the discharge time of a capacitor charged through the coil, and gives feedback via a buzzer and LED.
 
-![Circuit diagram](docs/circuit-diagram.png)
+<img width="1126" height="680" alt="Metal-Detector-using-Arduino-circuit-diagram" src="https://github.com/user-attachments/assets/93f0dc58-ddae-436b-a3c0-db41cb859c2e" />
+
 
 ## How it works
 
@@ -28,11 +29,7 @@ The coil (L1) and a capacitor form an RLC circuit. The Arduino repeatedly:
 
 | Breadboard prototype | Hand-wound coil | Final enclosure |
 |---|---|---|
-| ![Breadboard](docs/breadboard-build.jpg) | ![Coil](docs/hand-wound-coil.jpg) | ![Enclosure](docs/enclosure.png) |
-
-## Code
-
-[`detektor_2_0.ino`](detektor_2_0.ino) — the full Arduino sketch.
+| <img width="3024" height="4032" alt="20231216_235302" src="https://github.com/user-attachments/assets/4934ece4-a0e6-4471-9958-235110fad47b" /> | <img width="3024" height="4032" alt="civka" src="https://github.com/user-attachments/assets/4eebb0d4-f6b0-4f0d-992e-6eb5313c7bd0" /> | <img width="230" height="391" alt="Snímek obrazovky 2023-12-17 002719" src="https://github.com/user-attachments/assets/e6345b9d-0b84-44d8-a690-22c5b96f59dc" /> |
 
 ## Result
 
@@ -46,4 +43,4 @@ This project was built as a personal learning project, based on and adapted from
 
 ## Author
 
-Matej Dynda — [LinkedIn](https://linkedin.com/in/matej-dynda)
+Matej Dynda
